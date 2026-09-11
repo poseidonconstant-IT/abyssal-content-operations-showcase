@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="810" viewBox="0 0 1440 810" role="img" aria-labelledby="title description">
+  <title id="title">The Abyssal Capital: portfolio-safe system overview</title>
+  <desc id="description">A visual overview of a controlled AI content operations pipeline.</desc>
+  <rect width="1440" height="810" fill="#f6f8fb"/>
+  <rect x="80" y="62" width="1280" height="202" rx="8" fill="#fff" stroke="#d6deea"/>
+  <rect x="80" y="62" width="8" height="202" fill="#176b73"/>
+  <text x="120" y="112" font-family="monospace" font-size="17" font-weight="700" fill="#0f6972" letter-spacing="3">PYTHON · AI AUTOMATION · PRODUCTION OPERATIONS</text>
+  <text x="120" y="173" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#172033">The Abyssal Capital</text>
+  <text x="120" y="216" font-family="Arial, sans-serif" font-size="22" fill="#405069">Portfolio-safe view of an AI-assisted financial content operations platform.</text>
+  <g font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#176b73">
+    <rect x="120" y="235" width="180" height="36" rx="18" fill="#e5f3f2"/><text x="145" y="258">HUMAN HOLD</text>
+    <rect x="315" y="235" width="220" height="36" rx="18" fill="#e5f3f2"/><text x="340" y="258">ENGLISH-ONLY</text>
+    <rect x="550" y="235" width="245" height="36" rx="18" fill="#e5f3f2"/><text x="575" y="258">PER-CHANNEL RETRY</text>
+    <rect x="810" y="235" width="235" height="36" rx="18" fill="#e5f3f2"/><text x="835" y="258">SYSTEMD OPERATED</text>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <text x="80" y="338" font-size="28" font-weight="700" fill="#172033">Controlled delivery pipeline</text>
+    <g fill="#fff" stroke="#d6deea"><rect x="80" y="370" width="285" height="102" rx="7"/><rect x="405" y="370" width="285" height="102" rx="7"/><rect x="730" y="370" width="285" height="102" rx="7"/><rect x="1055" y="370" width="285" height="102" rx="7"/></g>
+    <g fill="#176b73"><rect x="80" y="370" width="285" height="5"/><rect x="405" y="370" width="285" height="5"/><rect x="730" y="370" width="285" height="5"/><rect x="1055" y="370" width="285" height="5"/></g>
+    <g font-size="21" font-weight="700" fill="#172033"><text x="105" y="417">1. Ingest</text><text x="430" y="417">2. Generate</text><text x="755" y="417">3. Review</text><text x="1080" y="417">4. Deliver</text></g>
+    <g font-size="16" fill="#405069"><text x="105" y="448">RSS · deduplication</text><text x="430" y="448">Gemini · quality gates</text><text x="755" y="448">Human HOLD · language check</text><text x="1080" y="448">Telegram · Facebook · X</text></g>
+    <g fill="#176b73"><path d="M370 416h23l-10-9 5-5 18 18-18 18-5-5 10-9h-23z"/><path d="M695 416h23l-10-9 5-5 18 18-18 18-5-5 10-9h-23z"/><path d="M1020 416h23l-10-9 5-5 18 18-18 18-5-5 10-9h-23z"/></g>
+  </g>
+  <line x1="80" y1="535" x2="1360" y2="535" stroke="#d6deea"/>
+  <g font-family="Arial, sans-serif"><text x="80" y="592" font-size="28" font-weight="700" fill="#172033">Reliability controls</text>
+    <g fill="#fff" stroke="#d6deea"><rect x="80" y="620" width="390" height="125" rx="7"/><rect x="525" y="620" width="390" height="125" rx="7"/><rect x="970" y="620" width="390" height="125" rx="7"/></g>
+    <g font-size="20" font-weight="700" fill="#172033"><text x="110" y="664">Safe X publishing</text><text x="555" y="664">Failure isolation</text><text x="1000" y="664">Recovery evidence</text></g>
+    <g font-size="16" fill="#405069"><text x="110" y="697">Length validation · English-only</text><text x="110" y="722">Manual retry, 12-hour expiry</text><text x="555" y="697">Only the failed platform retries</text><text x="555" y="722">No duplicate successful posts</text><text x="1000" y="697">95 offline regression tests</text><text x="1000" y="722">Backup verification · rotated logs</text></g>
+  </g>
+  <text x="80" y="785" font-family="Arial, sans-serif" font-size="14" fill="#627086">Sanitized architecture visual — no credentials, production content, accounts, logs, or publishing controls.</text>
+</svg>

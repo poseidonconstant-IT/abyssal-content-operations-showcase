@@ -7,6 +7,8 @@ private because it contains operational configuration and runtime data.
 This repository intentionally contains **no credentials, API tokens, production
 data, draft content, or publishing controls**.
 
+![Sanitized system overview](docs/system-overview.svg)
+
 ## Problem
 
 Publishing research-style financial content across several platforms can become
@@ -35,6 +37,8 @@ RSS ingestion
   silently falling back to unchecked content.
 - **Failure isolation:** results are tracked per platform; a successful channel
   is not posted again when another channel needs a retry.
+- **Stale-retry protection:** retries remain a human decision and expire after
+  a short review window rather than publishing outdated market commentary.
 - **Operational separation:** authenticated operations controls are separate
   from the read-only portfolio view.
 - **Linux deployment:** Python services are managed with `systemd`, with logs,
