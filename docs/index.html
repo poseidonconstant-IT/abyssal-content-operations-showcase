@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="The Abyssal Capital — options, volatility, and market structure."
+    />
+    <title>The Abyssal Capital</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --ink: #edf6f7;
+        --muted: #aec6cc;
+        --deep: #031720;
+        --deepest: #010a10;
+        --aqua: #3ed8d2;
+        --gold: #e5be61;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        align-items: center;
+        background:
+          radial-gradient(circle at 18% 12%, rgb(32 132 140 / 35%), transparent 34rem),
+          radial-gradient(circle at 86% 78%, rgb(191 143 48 / 21%), transparent 30rem),
+          var(--deepest);
+        color: var(--ink);
+        display: flex;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        justify-content: center;
+        margin: 0;
+        min-height: 100vh;
+        padding: 24px;
+      }
+
+      main {
+        background: linear-gradient(145deg, rgb(5 30 40 / 94%), rgb(2 17 25 / 94%));
+        border: 1px solid rgb(62 216 210 / 40%);
+        border-radius: 24px;
+        box-shadow: 0 24px 80px rgb(0 0 0 / 48%);
+        max-width: 580px;
+        overflow: hidden;
+        padding: 48px 36px 40px;
+        position: relative;
+        text-align: center;
+        width: 100%;
+      }
+
+      main::before {
+        background: linear-gradient(90deg, transparent, var(--gold), transparent);
+        content: "";
+        height: 1px;
+        left: 12%;
+        position: absolute;
+        right: 12%;
+        top: 0;
+      }
+
+      .mark {
+        color: var(--gold);
+        font-size: 31px;
+        letter-spacing: .16em;
+        margin: 0 0 12px;
+      }
+
+      h1 {
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(2rem, 8vw, 3.35rem);
+        font-weight: 500;
+        letter-spacing: .08em;
+        line-height: 1;
+        margin: 0;
+        text-transform: uppercase;
+      }
+
+      .tagline {
+        color: var(--aqua);
+        font-size: .75rem;
+        font-weight: 700;
+        letter-spacing: .17em;
+        margin: 19px 0 28px;
+        text-transform: uppercase;
+      }
+
+      .intro {
+        color: var(--muted);
+        font-size: 1.05rem;
+        line-height: 1.7;
+        margin: 0 auto 28px;
+        max-width: 440px;
+      }
+
+      .rally {
+        color: var(--ink);
+        font-size: 1.08rem;
+        font-weight: 650;
+        line-height: 1.55;
+        margin: 0 auto 31px;
+        max-width: 440px;
+      }
+
+      .links { display: grid; gap: 13px; }
+
+      a {
+        align-items: center;
+        border: 1px solid rgb(229 190 97 / 76%);
+        border-radius: 13px;
+        color: var(--ink);
+        display: flex;
+        font-size: 1rem;
+        font-weight: 750;
+        justify-content: center;
+        min-height: 58px;
+        padding: 12px 18px;
+        text-decoration: none;
+        transition: background .18s ease, color .18s ease, transform .18s ease;
+      }
+
+      a:hover, a:focus-visible {
+        background: var(--gold);
+        color: #102027;
+        outline: none;
+        transform: translateY(-2px);
+      }
+
+      footer {
+        color: #789299;
+        font-size: .78rem;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="mark" aria-hidden="true">🜄</p>
+      <h1>The Abyssal<br />Capital</h1>
+      <p class="tagline">Options · Volatility · Market Structure</p>
+      <p class="intro">
+        Clear research on mega-cap equities, setup mechanics, and risk framing.
+        Educational analysis only — never investment advice.
+      </p>
+      <p class="rally">
+        Join the current. Follow the research. Build a sharper view of the market with us.
+      </p>
+      <nav class="links" aria-label="The Abyssal Capital community links">
+        <a href="https://t.me/theabyssalcapital">✦ Join the Telegram Channel</a>
+        <a href="https://www.facebook.com/theabyssalcapital">✦ Follow us on Facebook</a>
+      </nav>
+      <footer>Independent market education · The Abyssal Capital</footer>
+    </main>
+  </body>
+</html>
